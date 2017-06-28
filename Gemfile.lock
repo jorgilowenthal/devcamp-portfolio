@@ -1,10 +1,4 @@
 GIT
-  remote: https://github.com/jorgilowenthal/lowenthal_view_tool
-  revision: bd7a3b56724a160c53951cef890ae638544933ed
-  specs:
-    lowenthal_view_tool (0.1.0)
-
-GIT
   remote: https://github.com/twbs/bootstrap-rubygem
   revision: 7cdeca9a0e8db3bb7548d9fa5bdaad9b644fca32
   specs:
@@ -96,6 +90,7 @@ GEM
       ruby_dep (~> 1.2)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
+    lowenthal_view_tool (0.1.0)
     mail (2.6.6)
       mime-types (>= 1.16, < 4)
     method_source (0.8.2)
@@ -207,7 +202,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
-  lowenthal_view_tool!
+  lowenthal_view_tool (~> 0.1.0)
   pg (~> 0.18)
   pry-byebug
   puma (~> 3.7)
