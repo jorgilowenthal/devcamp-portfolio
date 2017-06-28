@@ -16,3 +16,6 @@ module ApplicationHelper
         end
     end
 end
+  def copyright_generator
+    LowenthalViewTool::Renderer.copyright 'Jorge Figueroa', 'All Rights Reserved'
+  end
