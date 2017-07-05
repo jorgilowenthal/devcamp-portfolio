@@ -161,9 +161,20 @@ body {
   }
 }
 
+
+
+
 /*
  * Custom Styles
  */
+ 
+ /* Use this class to align all to your heart's desires. */
+ 
+ .text-center {
+   text-align: center;
+ }
+ 
+ /* Card Stuff */
  
  .card-block {
    color: black;
@@ -178,12 +189,21 @@ body {
    color: black;
  }
  
+ /* Deals with all of the Register buttons and Text */
  .register-text {
    text-align: right;
    margin-top: 5px;
  }
  
+ 
  .sign-up-registration {
    margin-top: 10px;
    margin-bottom: 5px;
+ }
+ 
+ /* Deals with the login and password recollection pages */
+ .login-block {
+   width: 25rem;
+   margin: 0 auto;
+   float: none;
  }
