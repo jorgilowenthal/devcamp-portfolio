@@ -25,5 +25,7 @@ module AppName
     permit_all_parameters = true
 
     config.generators.system_tests = nil
+    
+    config.eager_load_paths << "#{Rails.root}/lib"
   end
 end
